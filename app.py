@@ -52,7 +52,7 @@ elif page == "Data Analysis":
     st.write("### Model Performance Comparison")
     perf_data = pd.DataFrame({
         'Model': ['Logistic Regression', 'Decision Tree', 'Random Forest'],
-        'Accuracy': [0.6685, 0.6764, 0.7403]
+        'Accuracy': [0.6685, 0.6764, 0.7407]
     })
     st.bar_chart(perf_data.set_index('Model'))
 
